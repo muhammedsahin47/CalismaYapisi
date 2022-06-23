@@ -18,7 +18,7 @@ class OyunEkraniActivity : AppCompatActivity() {
         val gelenBoy = intent.getDoubleExtra("boy", 0.0)
         val gelenBekar = intent.getBooleanExtra("bekar",false)
 
-        Log.e("Gelen Ad",gelenAd!!)
+        Log.e("Gelen Ad",gelenAd!!)// !! yazılan koda güven null gelmeyecek
         Log.e("Gelen Yaş",gelenYas.toString())
         Log.e("Gelen Boy",gelenBoy.toString())
         Log.e("Gelen Bekar",gelenBekar.toString())
